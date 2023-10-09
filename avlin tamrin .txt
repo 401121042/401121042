@@ -1,0 +1,11 @@
+// اولین تمرین برنامه نویسی 7/17
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char c[] = "Hello c++ students\n";
+    cout << "Hello world! \n";
+    cout << c ;
+    return 0;
+}
