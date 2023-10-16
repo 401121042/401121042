@@ -1,0 +1,34 @@
+علیرضا نعمت پناه _ 401121042
+24/7
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    
+    cout<<"please enter an imteger numder :";
+    cin >> n;
+    cout << "you enter : " << n << endl;
+
+    return 0;
+}
+..........................................................................
+تمرین گرفتن سن از کاربر :
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int age;
+    
+    cout<<"please enter yoyr age :";
+    cin >> age;
+    cout << "you enter : " << age << endl;
+
+    return 0;
+}
+............................................................................

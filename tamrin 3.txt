@@ -1,0 +1,37 @@
+علیرضا نعمت پناه _ 401121042
+24/7
+تمرین : دو عدد را باهم مقایسه کنید  
+.............................................................
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,y ;
+    
+    cout<<"please enter two integer number :";
+    cin >> x >> y ;
+    
+    if (x == y ){
+        cout << " x is eaual with y " << endl;
+    }
+ if (x != y ){
+        cout << " x is not eaual with y " << endl;
+    }
+     if (x > y ){
+        cout << " x is gceater with y " << endl;
+    }
+     if (x < y ){
+        cout << " x is lower with y " << endl;
+    }
+     if (x >= y ){
+        cout << " x is greater or equal with y " << endl;
+    }
+       if (x <= y ){
+        cout << " x is lower or equal with y " << endl;
+    }
+    cout<< "x: " << x << "\ny: " << y;
+    return 0;
+}
+................................................................
