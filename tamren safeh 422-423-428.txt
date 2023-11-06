@@ -1,0 +1,68 @@
+#include <iostream>
+#include <student.h>
+
+
+using namespace std;
+
+ class Student {
+ public:
+    (string studentName , int studntAverage);
+    name(StudentName) {
+    set Avrerage(studemtAvregae);
+        }
+        void setName(string StudentName) {
+        nema = StudentName}
+        string getName() const{
+         return name;
+         }
+
+ }
+ void setName(int studntAverage){
+ if(studntAverage > 0 ) {
+    if(studntAverage <= 100) {
+        avrege = studntAverage;
+    }
+   }
+ }
+ int getAverage() const{
+   return average;
+ }
+ string getLetterGrrade() const{
+
+  string letterGrrade;
+  if (avrege >= 90 ) {
+    letterGrrade = "A" ;
+  }
+  else if(avrege >= 80) {
+    letterGrrade = "B" ;
+  }
+  else if(avrege >= 70) {
+    letterGrrade = "C" ;
+  }
+  else if(avrege >= 60) {
+    letterGrrade = "D" ;
+  }
+  else {
+    letterGrrade = "F" ;
+  }
+  return letterGrrade;
+ }
+ private:
+    string name;
+    int average{0}
+
+ }
+
+int main()
+{
+    Student account1{" Jane Green " , 93};
+    Student account2{" Jane Green " , 93};
+    cout << account1.getName() << "s letter grade equivalent of "
+         << account1.getAverage() << "is : "
+         << account1.getLetterGrade() << "\n" ;
+    cout << account2.getName() << "s letter grade equivalent of "
+         << account2.getAverage() << "is : "
+         << account2.getLetterGrade() << "\n" ;
+    return 0;
+}
+
